@@ -22,5 +22,19 @@ public class Stuentity{
     public String getName(){
         return name;
     }
-    public void setName()
+    public void setName(String name){
+        this.name=name;
+    }
+     public String getEmail(){
+        return email;
+    }
+    public void setEmail(Long ){
+        this.email=email;
+    }
+     public float getcgpa(){
+        return cgpa;
+    }
+    public void setcgpa(float cgpa id){
+        this.cgpa=cgpa;
+    }
 }
