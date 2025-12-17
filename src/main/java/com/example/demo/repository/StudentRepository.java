@@ -1,6 +1,12 @@
-package com.example.demo.repository;
+//repository->StudentRepository.java
+
+package com.example.PracticeProject.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import
 
-public interface StudentRepository extends JpaRepository;
+import com.example.PracticeProject.entity.StuEnt;
+
+public interface StudentRepository extends JpaRepository<StuEnt, Long> {
+    
+    
+}
