@@ -5,10 +5,10 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.entity.Stuentity;
 import com.example.demo.repository.StudentRepository;
-import com.example.demo.service.Studentservice;
+import com.example.demo.service.StudentService;
 
 @Service
-public class StudentServiceImple implements Studentservice {
+public class StudentServiceImple implements StudentService {
     @Autowired
     StudentRepository studentRepository;
 
