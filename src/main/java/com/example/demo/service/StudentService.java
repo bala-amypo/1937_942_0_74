@@ -1,8 +1,9 @@
-package com.example.demo.service;
+package com.example.demo.service;//demo
 
-import org.springframework.stereotype.Service;
+import com.example.demo.entity.Stuentity;
 
-@Service
-public interface  StudentService{
-    Stuentity saveStudent(Stuentity student)
+
+public interface  Studentservice {
+    Stuentity saveStudent(Stuentity student);
 }
+
